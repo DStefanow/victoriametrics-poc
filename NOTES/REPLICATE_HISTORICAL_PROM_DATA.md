@@ -43,3 +43,9 @@ with a prompt
 	Processing blocks: 0 / 1
 """
 8. After that we can verify that the data is added in the storage and query some samples;
+
+NOTES
+----------
+https://medium.com/@romanhavronenko/victoriametrics-how-to-migrate-data-from-prometheus-filtering-and-modifying-time-series-6d40cea4bf21
+
+Really cool topic of for that when we migrating data how we can eliminate huge storage with significant-figures to prevent a lot of digits after digital point in a sample.
