@@ -11,3 +11,4 @@ The following document should be readed in that order:
 
 NOTES:
 1. Should benefits of different components of VictoriaMetrics than Prometheus. Example: vmalert provides the functionallity for different 'evaluation internal' for given metric and 'keep firing' option for an alert;
+2. Check also 'vmanomaly' as a tool - https://docs.victoriametrics.com/anomaly-detection/guides/guide-vmanomaly-vmalert/
