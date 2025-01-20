@@ -1,0 +1,50 @@
+Structure of presentation:
+
+1. [Introduction slide regarding time series data](time-series/README.md):
+	1. What is time series?
+	2. Why there are useful?
+	3. How there are stored?
+2. [Introduction slide regarding Prometheus](prometheus/README.md):
+	1. What is Prometheus?
+	2. History and development of Prometheus?
+3. What problems we have with metrics?
+	1. Cardinality problem;
+	2. Huge usage of resources - RAM, CPU and disk;
+	3. Not to easy maintenance because of single binary setup;
+	4. Not so flexible configuration for some use cases;
+	5. Realy big WAL compaction;
+	6. etc.;
+4. Introduction regarding VictoriaMetrics?
+	1. Why we have and what problems try to resolve?
+	2. History and development;
+5. What problems tries to solve VictoriaMetrics?
+	1. Resource usage;
+	2. Data compaction;
+	3. Cluster specification - we have different tools/binaries for every component;
+	4. Flexible configuration;
+	5. Fast restore after restart;
+6. How to migrate from Prometheus to VictoriaMetrics?
+	1. Migration with the help of Remote Write;
+	2. Single VictoriaMetrics - support Prometheus scrape config;
+	3. vmagent;
+	4. Migrating historical data with vmctl;
+7. Migrating recording/alerting rules;
+8. Prometheus vs. VictoriaMetircs benchmark:
+	1. CPU;
+	2. RAM;
+	3. Disk;
+	4. Bandwidth;
+9. Some extra tools (cluster setup and more):
+	1. vminsert;
+	2. vmstorage;
+	3. vmbackup;
+	4. vmrestore;
+	5. Helm charts;
+10. Interface walkthrough:
+	1. vmui;
+	2. vmalert;
+	3. targrts;
+	4. configuration;
+	5. helpers;
+11. Used resources and references.
+
