@@ -1,13 +1,13 @@
 Structure of presentation:
 
-1. [Introduction slide regarding time series data](time-series/README.md):
+1. [Introduction slide regarding time series data](time_series.md):
 	1. What is time series?
 	2. Why there are useful?
 	3. How there are stored?
-2. [Introduction slide regarding Prometheus](prometheus/README.md):
+2. [Introduction slide regarding Prometheus](prometheus.md):
 	1. What is Prometheus?
 	2. History and development of Prometheus?
-3. What problems we have with metrics?
+3. [What problems we have with metrics?](prometheus_problems.md)
 	1. Cardinality problem;
 	2. Huge usage of resources - RAM, CPU and disk;
 	3. Not to easy maintenance because of single binary setup;
