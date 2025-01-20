@@ -8,11 +8,11 @@ Structure of presentation:
 	1. What is Prometheus?
 	2. History and development of Prometheus?
 3. [What problems we have with metrics?](prometheus_problems.md)
-	1. Cardinality problem;
-	2. Huge usage of resources - RAM, CPU and disk;
-	3. Not to easy maintenance because of single binary setup;
+	1. Huge usage of resources - RAM, CPU and disk;
+	2. Not to easy maintenance because of single binary setup;
+	3. Realy big WAL restore time;
 	4. Not so flexible configuration for some use cases;
-	5. Realy big WAL compaction;
+	5. Cardinality problem;
 	6. etc.;
 4. Introduction regarding VictoriaMetrics?
 	1. Why we have and what problems try to resolve?
