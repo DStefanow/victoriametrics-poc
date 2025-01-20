@@ -27,3 +27,7 @@ prometheus[3506]: level=info ts=2023-07-04T09:27:50.120Z caller=head.go:577 comp
 '''
 
 And when we scraping a lot of metrics with huge cardinality it is better to perform service restart exactly after WAL write because we have fewer segments for restore.
+
+
+## Cardinality problem
+As we can see from the above point when we have a huge cardinality we have a huge problem. Not only the restart but the resources needs more expand regarding CPU, memory and disk. The reason behind that is that - Prometheus keeps a cache of present time series ids in memory and when we receive a new data is easy to update it. But if we have a new entry for TS we need to insert it which is a expensive operation. This is why we don't want labels like user_ids, sessions, paths with 3+ combinations and etc. in our TSDB.
