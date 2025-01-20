@@ -13,7 +13,7 @@ Structure of presentation:
 	3. Realy big WAL restore time;
 	4. Cardinality problem;
 	5. etc.;
-4. Introduction regarding VictoriaMetrics?
+4. [Introduction regarding VictoriaMetrics?](victoriametrics.md)
 	1. Why we have and what problems try to resolve?
 	2. History and development;
 5. What problems tries to solve VictoriaMetrics?
