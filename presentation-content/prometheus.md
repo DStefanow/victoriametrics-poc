@@ -14,9 +14,9 @@
 	2. node_memory_MemAvailable_bytes{instance="172.17.1956.35:9100"}
 	3. node_cpu_seconds_total{instance="172.17.1956.35:9100", cpu="0", mode="user"};
 3. Raw samples - Every unique time series may consist of an arbitary number of **value, timestamp** data point (a.k.a. raw sample):
-'''
+```
 requests_total{path="/", code="2xx"} 321 1737381556000 # UNIX timestamp with milisecond precision
-'''
+```
 4. Cardinality - The number of unqiue time series (metric name and label combination);
 5. Different type of metrics:
 	1. Counter is a metric which value increases or stays the same over time. It cannot decrease in general case. The only exception is 'counter reset' when the metric is set back to zero. Example: requests_total and node_cpu_seconds_total;
