@@ -26,11 +26,11 @@ Structure of presentation:
 	2. Single VictoriaMetrics - support Prometheus scrape config;
 	3. Migrating historical data with vmctl;
 	4. vmagent;
-6. Migrating recording/alerting rules;
+6. [Migrating recording/alerting rules](prometheus_rules.md)
 7. Prometheus vs. VictoriaMetircs benchmark:
 	1. CPU;
 	2. RAM;
-	3. Disk;
+	3. Disk - some interesting notes regarding huge numbers;
 	4. Bandwidth;
 8. Some extra tools (cluster setup and more):
 	1. vminsert;
