@@ -16,12 +16,11 @@ Structure of presentation:
 4. [Introduction regarding VictoriaMetrics?](victoriametrics.md)
 	1. Why we have and what problems try to resolve?
 	2. History and development;
-5. What problems tries to solve VictoriaMetrics?
-	1. Resource usage;
-	2. Data compaction;
-	3. Cluster specification - we have different tools/binaries for every component;
-	4. Flexible configuration;
-	5. Fast restore after restart;
+	3. Resource usage;
+	4. Data compaction;
+	5. Cluster specification - we have different tools/binaries for every component;
+	6. Flexible configuration;
+	7. Fast restore after restart;
 6. How to migrate from Prometheus to VictoriaMetrics?
 	1. Migration with the help of Remote Write;
 	2. Single VictoriaMetrics - support Prometheus scrape config;
