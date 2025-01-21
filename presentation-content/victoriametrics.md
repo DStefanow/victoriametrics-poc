@@ -7,11 +7,13 @@ Because ... why not?
 
 [vm-faq](img/vm-faq.png)
 
-# CNCF project from 12.07.2023
+CNCF project from 12.07.2023
 https://www.cncf.io/announcements/2023/07/12/over-30-new-members-join-the-cloud-native-computing-foundation/
+
 [cncf-landscape-big](img/cncf-landscape-original.png)
 
 If you ask where is VictoriaMetrics:
+
 [cncf-landscape-zoom](img/cncf-landscape.png)
 
 # Why they built it?
