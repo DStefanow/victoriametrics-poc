@@ -32,17 +32,9 @@ Structure of presentation:
 	2. CPU usage - spikes in VM;
 	3. RAM;
 	4. Disk - some interesting notes regarding huge numbers;
-8. Some extra tools (cluster setup and more):
+8. [Some extra tools (cluster setup and more)](components.md)
 	1. vminsert;
 	2. vmstorage;
 	3. vmbackup;
 	4. vmrestore;
 	5. Helm charts;
-9. Interface walkthrough:
-	1. vmui;
-	2. vmalert;
-	3. targrts;
-	4. configuration;
-	5. helpers;
-10. Used resources and references.
-
