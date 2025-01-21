@@ -21,11 +21,11 @@ Structure of presentation:
 	5. Cluster specification - we have different tools/binaries for every component;
 	6. Flexible configuration;
 	7. Fast restore after restart;
-5. How to migrate from Prometheus to VictoriaMetrics?
+5. [How to migrate from Prometheus to VictoriaMetrics?](data_migration.md)
 	1. Migration with the help of Remote Write;
 	2. Single VictoriaMetrics - support Prometheus scrape config;
-	3. vmagent;
-	4. Migrating historical data with vmctl;
+	3. Migrating historical data with vmctl;
+	4. vmagent;
 6. Migrating recording/alerting rules;
 7. Prometheus vs. VictoriaMetircs benchmark:
 	1. CPU;
