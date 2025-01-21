@@ -27,11 +27,11 @@ Structure of presentation:
 	3. Migrating historical data with vmctl;
 	4. vmagent;
 6. [Migrating recording/alerting rules](prometheus_rules.md)
-7. Prometheus vs. VictoriaMetircs benchmark:
-	1. CPU;
-	2. RAM;
-	3. Disk - some interesting notes regarding huge numbers;
-	4. Bandwidth;
+7. [Prometheus vs. VictoriaMetircs benchmark](benchmark.md)
+	1. Our setup and what we scrape;
+	2. CPU usage - spikes in VM;
+	3. RAM;
+	4. Disk - some interesting notes regarding huge numbers;
 8. Some extra tools (cluster setup and more):
 	1. vminsert;
 	2. vmstorage;
