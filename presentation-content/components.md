@@ -34,8 +34,6 @@ HTTP proxy which can authorize, route and load balance requests across VictoriaM
 
 Creates and restore VictoriaMetrics backups from instant snapshots.
 
-### vmgateway
-
 ### vmbackupmanager (Entrerprise package)
 
 Automate regular backup procedures.

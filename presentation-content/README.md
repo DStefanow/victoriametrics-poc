@@ -38,3 +38,6 @@ Structure of presentation:
 	3. vmbackup;
 	4. vmrestore;
 	5. Helm charts;
+9. Interface and dashboards walk through;
+10. Q&A;
+11. Links.
