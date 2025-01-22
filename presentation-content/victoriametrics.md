@@ -1,6 +1,6 @@
 # VictoriaMetircs history
 * VictoriaMetrics was founded in 2018 in Kyiv, Ukraine;
-* First open source release - May 2.12.2018 (version v1.2.1);
+* First open source release - 2.12.2018 (version v1.2.1);
 
 # Why we need another monitoring tool for Time series?
 Because ... why not?

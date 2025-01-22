@@ -1,10 +1,10 @@
 # Problems with Prometheus
 
 ## Resource usage
-With every new target,recording and alerting rule that we are adding we increase resource usage of Prometheus for **4438520** we are using:
+With every new target,recording and alerting rule that we are adding we increase resource usage of Prometheus for **4438520** data points we are using:
 * 36GB of memory;
 * About 8 CPU cores;
-* 800GB storage (for 30 day retention);
+* 450GB storage (for 30 day retention);
 The resource usage increase proportional for every entry that we are adding it;
 
 ## Not so easy for maintenance

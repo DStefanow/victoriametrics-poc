@@ -46,26 +46,26 @@ max_over_time(rate(process_cpu_seconds_total{job="kube-prometheus-stack-promethe
 * Average memory usage for the last 72 hours ~ 14GB
 
 ```
-avg_over_time(process_resident_memory_bytes{job=""}[72d]) / 1024 ^ 3
+avg_over_time(process_resident_memory_bytes{job="victoriametrics-poc"}[72d]) / 1024 ^ 3
 ```
 
-* Average CPU usage for the last 72 hours ~ < 1 core
+* Average CPU usage for the last 72 hours ~ < 2 core
 
 ```
-avg_over_time(rate(process_cpu_seconds_total{job="prometheus"}[5m])[72d:5m])
+avg_over_time(rate(process_cpu_seconds_total{job="victoriametrics-poc"}[5m])[72d:5m])
 ```
 
 * Maximum CPU cores for the last 72 hours ~ 6 cores
 
 ```
-max_over_time(rate(process_cpu_seconds_total{job="kube-prometheus-stack-prometheus"}[5m])[72d:5m])
+max_over_time(rate(process_cpu_seconds_total{job="victoriametrics-poc"}[5m])[72d:5m])
 ```
 
 * Used disk size with data retention of 30 days - 285GB
 
 Compared with Prometheus we have:
 * 60% less memory usage;
-* 80% less average cpu usage;
+* 73% less average cpu usage;
 * 37% less disk space for data;
 
 ## Bytes per data point
